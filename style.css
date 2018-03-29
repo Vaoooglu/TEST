@@ -1,0 +1,135 @@
+#WeatherInfo{
+  width: 200px;
+  min-width: 200px;
+  overflow: hidden;
+  background: #e7f0ff;
+  background: -moz-linear-gradient
+  (left,  #e7f0ff 0%, #ffffff 50%, #e7f0ff 100%) ;
+  background: linear-gradient(to right,  #e7f0ff 0%,#ffffff 50%,#e7f0ff 100%);
+  /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e7f0ff', endColorstr='#e7f0ff',GradientType=1 ); */
+  text-align: center;
+  padding: 7px 4px 1px;
+  border: 1px solid #AECBFF;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  border-bottom-right-radius: 7px;
+  border-bottom-left-radius: 7px;
+  margin: 0 auto;
+  display: inline-block ;
+   zoom: 1;
+   font-family: Verdana, 'DejaVu Sans', Tahoma, Arial, Helvetica, sans-serif;
+   font-size: 12px;
+   font-weight: normal;
+   outline: none 0;
+}
+#InformerTitleLink{
+color: #006B7E;
+font-weight: bold ;
+text-decoration: none ;
+text-shadow: none ;
+margin: 0 0 4px ;
+cursor: pointer ;
+cursor: hand ;
+display: inline-block ;
+zoom: 1;
+font-family: Verdana, 'DejaVu Sans', Tahoma, Arial, Helvetica, sans-serif ;
+font-size: 12px ;
+padding: 0 ;
+border: none 0 ;
+outline: none 0 ;
+}
+#InformerDayDate{
+  color: #948C75;
+  text-shadow: none;
+  margin: 0 0 10px;
+  display: inline-block;
+  zoom: 1;
+  font-family: Verdana, 'DejaVu Sans', Tahoma, Arial, Helvetica, sans-serif ;
+  font-size: 12px;
+  font-weight: normal;
+  border: none 0;
+  padding: 0;
+  outline: none 0;
+}
+#InformerTodayLink{
+   color: #ffffe0 ;
+   background-color: #7BDE31 ;
+   background-image: url( 'images/OpaqueImages.png' );
+   background-repeat: repeat-x;
+   background-position: 0 -89px ;
+   font-weight: bold ;
+   text-decoration: none ;
+   text-shadow: none ;
+   padding: 2px 10px 4px ;
+   border-right: 1px solid #6dc62c;
+   border-bottom: 1px solid #6dc62c;
+   border-radius: 15px;
+   cursor: default ;
+   display: inline-block ;
+   zoom: 1 ;
+   font-family: Verdana, 'DejaVu Sans', Tahoma, Arial, Helvetica, sans-serif ;
+   font-size: 12px ;
+   outline: none 0 ;
+   margin: 0 ;
+}
+#InformerLinksDelimiter{
+  display: inline ;
+   color: #948C75 ;
+   text-shadow: none ;
+   font-family: Verdana, 'DejaVu Sans', Tahoma, Arial, Helvetica, sans-serif ;
+   font-size: 12px ;
+   font-weight: normal ;
+   padding: 0 ;
+    border: none 0 ;
+    outline: none 0 ;
+     margin: 0 ;
+}
+#InformerTomorrowLink{
+  style="color: #3b81ff ;
+  text-decoration: none ;
+  text-shadow: none ;
+  padding: 0 0 1px ;
+  border-bottom: 1px dashed #adcbff ;
+  margin: 0 0 5px ;
+  cursor: pointer ;
+  cursor: hand ;
+  display: inline-block ;
+  zoom: 1 ;
+  font-family: Verdana, 'DejaVu Sans', Tahoma, Arial, Helvetica, sans-serif ;
+  font-size: 12px ;
+  font-weight: normal ;
+  outline: none 0 ; "
+}
+#InformerWeatherImage{
+  margin: 7px 0 ;
+  display: inline-block ;
+  zoom: 1 ;
+  padding: 0 ;
+  border: none 0 ;
+  outline: none 0 ;
+}
+#InformerDayTemperatures{
+  display: inline ;
+  color: #006B7E ;
+  text-shadow: none ;
+  font-family: Verdana, 'DejaVu Sans', Tahoma, Arial, Helvetica, sans-serif ;
+  font-size: 16px ;
+  font-weight: normal ;
+  padding: 0 ;
+  border: none 0 ;
+  outline: none 0 ;
+  margin: 0 ;
+}
+span {
+display: inline ;
+font-size: 16px ;
+color: #948C75 ;
+background-color: transparent ;
+font-family: Verdana, 'DejaVu Sans', Tahoma, Arial, Helvetica, sans-serif ;
+font-weight: normal ;
+text-shadow: none ;
+padding: 0 ;
+border: none 0 ;
+outline: none 0 ;
+margin: 0 ;
+}
